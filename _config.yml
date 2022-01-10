@@ -1,29 +1,4 @@
 
-# Don't exclude nginx.conf, needs to be copied into _site for
-# cloud.gov to pick up on it.
-exclude:
-- ".gitignore"
-- todo.txt
-- Gemfile
-- Gemfile.lock
-- Makefile
-- Staticfile
-- README.md
-- CONTRIBUTING.md
-- LICENSE.md
-- dap.md
-- uxtesting.md
-- ".sass-cache"
-- requirements.txt
-- system-security-plan.yml
-- manifest.yml
-- vendor
-- .codeclimate.yml
-- .eslinrc.yml
-- docker-compose.yml
-- bin/
-- docs/
-
 # defaults
 defaults:
   -
