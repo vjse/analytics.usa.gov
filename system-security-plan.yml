@@ -1,0 +1,66 @@
+name: analytics.usa.gov
+uniqueID: <MB number>
+version: 3.0
+phase: beta
+information-types:
+- D26 Civilian Operations
+confidentiality: none
+integrity: low
+availability: low
+security-baseline: open data
+system-type: minor
+level-of-identity-assurance: 0
+staff:
+  authorizing-official:
+    name: Aidan Feldman
+    title: TTS Technology Portfolio Lead
+    org: General Services Administration
+    unit: TTS
+    email: aidan.feldman@gsa.gov
+  system-owner:
+    name: Timothy Lowden
+    title: Program Manager
+    org: General Services Administration
+    unit: TTS
+    email: timothy.lowden@gsa.gov
+  system-management:
+    name: Timothy Lowden 
+    title: Program Manager
+    org: General Services Administration
+    unit: TTS
+    email: timothy.lowden@gsa.gov
+  system-security-officer:
+    name: Susan Frederick
+    title: ISSO
+    org: General Services Administration
+    unit: GSA IT
+    email: susan.frederick@gsa.gov
+  technical-lead:
+    name: Jonathan Hooper
+    title: Technical Lead
+    org: General Services Administration
+    unit: 18F
+    email: jonathan.hooper@gsa.gov
+leveraged-authorizations:
+- https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/
+purpose: https://github.com/18F/analytics.usa.gov#readme
+components:
+- https://github.com/18F/analytics.usa.gov
+- https://github.com/18F/analytics-reporter
+- https://github.com/18F/analytics-report-api
+
+# these will be the same unless your architecture is especially complex
+system-diagram: https://docs.google.com/drawings/d/1eKmjl1ht0QLXU3PaFZ-FHuudK-4AtxkU8-rjUH8Com0/edit
+network-diagram: https://docs.google.com/drawings/d/1eKmjl1ht0QLXU3PaFZ-FHuudK-4AtxkU8-rjUH8Com0/edit
+
+environments:
+- Cloud Foundry
+- Amazon Web Services East
+- GovCloud
+user-types:
+  developer:
+    functions:
+    - deployment
+    - engineering
+controls:
+- ---
